@@ -14,10 +14,10 @@ cc_library(
 cc_library(
     name = "ssl_test",
     srcs = [
-        "ssl_test.cc",
+        "ssl_util.cc",
     ],
     hdrs = [
-        "ssl_test.h",
+        "ssl_util.h",
     ],
     copts = [
         "-O2",
