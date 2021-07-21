@@ -1,0 +1,9 @@
+# CLion
+.idea/
+.clwb/
+
+# bazel build progress
+bazel-bin/
+bazel-grpc_test/
+bazel-out/
+bazel-testlogs/
