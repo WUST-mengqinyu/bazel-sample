@@ -1,0 +1,24 @@
+cc_binary(
+    name = "server",
+    srcs = ["server.cc"],
+    deps = [
+        "//proto:hello_grpc",
+        "//utils:utils",
+        "@fmtlib//:fmtlib",
+        "@com_github_grpc_grpc//:grpc++",
+        "@com_github_grpc_grpc//:grpc++_reflection",
+        "@sqlite3//:sqlite3",
+    ],
+)
+
+cc_binary(
+    name = "client",
+    srcs = ["client.cc"],
+    deps = [
+        "//proto:hello_grpc",
+        "//utils:utils",
+        "@fmtlib//:fmtlib",
+        "@com_github_grpc_grpc//:grpc++",
+        "@sqlite3//:sqlite3",
+    ],
+)

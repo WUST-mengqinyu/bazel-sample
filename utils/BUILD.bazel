@@ -1,0 +1,29 @@
+package(default_visibility = ["//visibility:public"])
+
+cc_library(
+    name = "utils",
+    srcs = [
+        "utils.cc",
+    ],
+    hdrs = [
+        "utils.h",
+    ],
+    deps = ["@sqlite3//:sqlite3"],
+)
+
+cc_library(
+    name = "ssl_test",
+    srcs = [
+        "ssl_test.cc",
+    ],
+    hdrs = [
+        "ssl_test.h",
+    ],
+    copts = [
+        "-O2",
+        "-std=c++17",
+    ],
+    deps = [
+        "//third_party/openssl:openssl",
+    ],
+)
