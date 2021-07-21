@@ -1,7 +1,5 @@
 ## bazel-sample
 
----
-
 Provide a sample project for those people: 
 - use macOS (maybe linux)
 - need C++ project (support clang and gcc)
@@ -10,10 +8,9 @@ Provide a sample project for those people:
 - need openssl (version 1.1.1+, or the better option is boringssl)
 - use CLion (not have to)
 
+---
 
 ## How to prepare env
-
----
 
 ### bazel
 
@@ -41,8 +38,6 @@ So just install the latest version of CLion now.
 Go `CLion->Preferences...->Bazel settings->bazel binary location` and set it `~/bin/bazel`
 
 ## How to build it
-
----
 
 ### Import this repo
 
