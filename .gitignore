@@ -4,6 +4,6 @@
 
 # bazel build progress
 bazel-bin
-bazel-grpc_test
+bazel-bazel-sample
 bazel-out
 bazel-testlogs
