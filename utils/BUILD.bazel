@@ -27,3 +27,9 @@ cc_library(
         "//third_party/openssl:openssl",
     ],
 )
+
+cc_library(
+    name = "basic_lib",
+    srcs = ["basic.cc"],
+    hdrs = ["basic.h"],
+)

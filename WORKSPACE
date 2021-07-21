@@ -16,9 +16,9 @@ rules_foreign_cc_dependencies()
 git_repository(
     name = "gtest",
     remote = "https://github.com/google/googletest",
-    commit = "703bd9caab50b139428cea1aaff9974ebee5742e",
-    shallow_since = "1570114335 -0400",
-#    branch = "v1.10.x",
+    commit = "ba96d0b1161f540656efdaed035b3c062b60e006",
+#    shallow_since = "1623433346 -0700",
+#    branch = "release-1.11.0",
 )
 
 # load sqlite3
