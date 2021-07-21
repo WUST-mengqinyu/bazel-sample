@@ -20,6 +20,13 @@ git_repository(
 #    branch = "release-1.10.x",
 )
 
+# load gflags
+git_repository(
+    name = "gflags",
+    remote = "https://github.com/gflags/gflags",
+    branch = "v2.2.2",
+)
+
 # load sqlite3
 http_archive(
     name = "sqlite3",
